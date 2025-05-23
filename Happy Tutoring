@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bright Future Tuition Centre</title>
+    <style>
+        body { font-family: Arial; text-align: center; padding: 50px; }
+        header { font-size: 2em; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <header>Bright Future Tuition Centre</header>
+    <p>Welcome! We offer quality tuition for Grades 1 to 10.</p>
+    <p>📍 Location: Chennai, 📞 Contact: 9600096000</p>
+    <p>Email us at support@letterprotect1301.freshdesk.com</p>
+
+   <script>
+	window.fwSettings={
+	'widget_id':1130000000039
+	};
+	!function(){if("function"!=typeof window.FreshworksWidget){var n=function(){n.q.push(arguments)};n.q=[],window.FreshworksWidget=n}}() 
+</script>
+<script type='text/javascript' src='https://ind-widget.freshworks.com/widgets/1130000000039.js' async defer></script>
+
+</body>
+</html>
