@@ -1,2 +1,2 @@
-# Tution-Website
-Website for my tution centre
+# TechEase Electronics
+Website for my Electronics Company
