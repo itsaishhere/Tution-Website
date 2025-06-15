@@ -155,27 +155,27 @@
 
   <section id="about">
     <h2>About Us</h2>
-    <p>TechEase Electronics provides smart, efficient, and modern electronics for both consumers and businesses. We specialize in embedded systems, IoT, and automation kits.</p>
+    <p>TechEase Electronics provides smart, efficient, and modern electronics for both consumers and businesses. We specialize in quick delivery of laptops, mobile phones, headsets and others.</p>
   </section>
 
   <section id="products">
     <h2>Our Products</h2>
     <div class="features">
       <div class="feature-card">
-        <h3>🔌 Smart Home Kits</h3>
-        <p>Automate lights, fans, and devices with voice or app control.</p>
+        <h3>🔌 Laptops</h3>
+        <p>From top brands like Apple, Microsoft etc.</p>
       </div>
       <div class="feature-card">
-        <h3>📦 IoT Starter Packs</h3>
-        <p>All-in-one kits to kickstart your IoT development journey.</p>
+        <h3>📦 Mobile phones</h3>
+        <p>One stop destination for home delivery.</p>
       </div>
       <div class="feature-card">
-        <h3>💻 PCB & Circuit Design</h3>
-        <p>Custom PCB design for prototyping and production.</p>
+        <h3>💻 Other Home Appliances</h3>
+        <p>TVs, A/c, Fans etc.</p>
       </div>
       <div class="feature-card">
-        <h3>⚙️ Embedded Solutions</h3>
-        <p>End-to-end embedded system design and integration.</p>
+        <h3>⚙️All in one stop with dooorstep delivery</h3>
+        <p>Your purchase made easy.</p>
       </div>
     </div>
   </section>
@@ -183,9 +183,9 @@
   <section id="contact" class="contact">
     <h2>Contact Us</h2>
     <p>📞 +91-98765-43210</p>
-    <p>📧 support@techease.in</p>
+    <p>📧 support@letterprotect1301.freshdesk.com</p>
     <p>🌐 <a href="https://techease.in" style="color: #00c6ff;">techease.in</a></p>
-    <a class="button" href="mailto:support@techease.in">Send an Email</a>
+    <a class="button" href="mailto:support@letterprotect1301.freshdesk.com">Send an Email</a>
   </section>
 
   <footer>
