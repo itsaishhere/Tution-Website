@@ -1,25 +1,204 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Bright Future Tuition Centre</title>
-    <style>
-        body { font-family: Arial; text-align: center; padding: 50px; }
-        header { font-size: 2em; font-weight: bold; }
-    </style>
+  <meta charset="UTF-8">
+  <title>TechEase Electronics</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #0f2027;
+      --secondary: #203a43;
+      --accent: #2c5364;
+      --highlight: #00c6ff;
+      --text-light: #ffffff;
+      --text-dark: #333333;
+      --gradient-soft: linear-gradient(to bottom right, #00c6ff, #0072ff);
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Rubik', sans-serif;
+      background: #0f2027;
+      color: var(--text-light);
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px 40px;
+      background: var(--gradient-soft);
+      color: white;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3.2em;
+      letter-spacing: 2px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      background-color: rgba(0, 0, 0, 0.3);
+      padding: 12px;
+      font-size: 1.1em;
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      color: var(--highlight);
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 960px;
+      margin: auto;
+      text-align: center;
+    }
+
+    #about {
+      background: linear-gradient(to right, #232526, #414345);
+    }
+
+    #products {
+      background: linear-gradient(to right, #2b5876, #4e4376);
+    }
+
+    #contact {
+      background: linear-gradient(to right, #0f2027, #2c5364);
+    }
+
+    section h2 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      color: var(--highlight);
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .feature-card {
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      padding: 20px;
+      width: 250px;
+      color: white;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      transition: all 0.3s ease-in-out;
+    }
+
+    .feature-card:hover {
+      transform: scale(1.05);
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .contact p {
+      margin: 10px 0;
+      font-size: 1.1em;
+    }
+
+    .contact a.button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: var(--highlight);
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background-color 0.2s;
+    }
+
+    .contact a.button:hover {
+      background-color: #009ad8;
+    }
+
+    footer {
+      background-color: #000000dd;
+      padding: 30px;
+      text-align: center;
+      font-size: 0.95em;
+      color: #cccccc;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  </style>
 </head>
 <body>
-    <header>Bright Future Tuition Centre</header>
-    <p>Welcome! We offer quality tuition for Grades 1 to 10.</p>
-    <p>📍 Location: Chennai, 📞 Contact: 9600096000</p>
-    <p>Email us at support@letterprotect1301.freshdesk.com</p>
 
-   <script>
+  <header>
+    <h1>TechEase Electronics</h1>
+    <p>Innovating Everyday Tech</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>TechEase Electronics provides smart, efficient, and modern electronics for both consumers and businesses. We specialize in embedded systems, IoT, and automation kits.</p>
+  </section>
+
+  <section id="products">
+    <h2>Our Products</h2>
+    <div class="features">
+      <div class="feature-card">
+        <h3>🔌 Smart Home Kits</h3>
+        <p>Automate lights, fans, and devices with voice or app control.</p>
+      </div>
+      <div class="feature-card">
+        <h3>📦 IoT Starter Packs</h3>
+        <p>All-in-one kits to kickstart your IoT development journey.</p>
+      </div>
+      <div class="feature-card">
+        <h3>💻 PCB & Circuit Design</h3>
+        <p>Custom PCB design for prototyping and production.</p>
+      </div>
+      <div class="feature-card">
+        <h3>⚙️ Embedded Solutions</h3>
+        <p>End-to-end embedded system design and integration.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>📞 +91-98765-43210</p>
+    <p>📧 support@techease.in</p>
+    <p>🌐 <a href="https://techease.in" style="color: #00c6ff;">techease.in</a></p>
+    <a class="button" href="mailto:support@techease.in">Send an Email</a>
+  </section>
+
+  <footer>
+    &copy; 2025 TechEase Electronics. All rights reserved.
+  </footer>
+
+  <script>
 	window.fwSettings={
-	'widget_id':1130000000039
+	'widget_id':1130000000099
 	};
 	!function(){if("function"!=typeof window.FreshworksWidget){var n=function(){n.q.push(arguments)};n.q=[],window.FreshworksWidget=n}}() 
-</script>
-<script type='text/javascript' src='https://ind-widget.freshworks.com/widgets/1130000000039.js' async defer></script>
+  </script>
+  <script type='text/javascript' src='https://ind-widget.freshworks.com/widgets/1130000000099.js' async defer></script>
 
 </body>
 </html>
